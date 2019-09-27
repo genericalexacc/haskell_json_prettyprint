@@ -7,8 +7,10 @@ foo@bar:~$ runghc Setup configure
 foo@bar:~$ runghc Setup build
 foo@bar:~$ runghc Setup install
 
-Prelude$ > let value = renderJValue (JObject [("f", JNumber 1), ("q", JBool True)])
-Prelude$ > putStrLn (pretty 30 value)
+Then in GHCI
+
+foo@bar:~$ Prelude> let value = renderJValue (JObject [("f", JNumber 1), ("q", JBool True)])
+foo@bar:~$ Prelude> putStrLn (pretty 30 value)
 {"f": 1.0, "q": true }
 
 ```
