@@ -1,0 +1,17 @@
+Name: mypretty
+Version: 0.1
+-- This is a comment. It stretches to the end of the line.
+
+Synopsis: My pretty printing library, with JSON support
+Description:
+    Pretty Printing library for JSON
+Author: Alexander Shevchenko
+Maintainer: shevchenkoalexander@icloud.com
+
+Cabal-Version: >= 1.2
+
+library
+    Exposed-Modules: Prettify
+    PrettyJSON
+    SimpleJSON
+    Build-Depends: base >= 2.0
